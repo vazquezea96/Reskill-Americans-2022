@@ -1,7 +1,7 @@
 {
-  "name": "book-api",
+  "name": "reskill_american",
   "version": "1.0.0",
-  "description": "Simple Book API",
+  "description": "Simple API using NodeJs (raw)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
