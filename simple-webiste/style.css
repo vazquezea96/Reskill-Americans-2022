@@ -1,0 +1,92 @@
+/* nav bar */
+
+#nav-bar-main {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar-left {
+  float:left;
+}
+
+.nav-bar-right {
+  float:right;
+}
+
+#nav-bar-main a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar-bottom {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar-bottom p {
+  display:inline-block;
+  color: white;
+  text-align: start;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-bar-bottom p > a {
+  color: green;
+}
+
+.button-right {
+  float:inline-end;
+  border: 1rem solid green;
+  border-radius: 3px;
+  color: white;
+  background-color: green;
+  font-size: medium;
+  width: 150px;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+#nav-bar-main a:hover {
+  background-color: #111;
+}
+.grid-container-1, .grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-row:auto;
+  gap: 1rem;
+  margin: 1rem;
+  align-items: center;
+}
+
+.grid-item {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  align-content: center;
+  background-color: whitesmoke;
+}
+
+body {
+  margin: 2rem;
+  font: 12px system-ui;
+}
+
+.landing-body h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: green;
+}
+
+.landing-body h2 {
+  color: green;
+}
