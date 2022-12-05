@@ -54,6 +54,10 @@
   width: 150px;
 }
 
+.button-right:hover {
+  background-color: lawngreen;
+}
+
 
 /* Change the link color to #111 (black) on hover */
 #nav-bar-main a:hover {
@@ -70,9 +74,15 @@
 
 .grid-item {
   padding: 1.5rem;
-  border-radius: 1rem;
+  border-radius: 5px;
   align-content: center;
+  background-color: white;
+  border-style: solid;
+}
+
+.grid-item:hover {
   background-color: whitesmoke;
+  color: white;
 }
 
 body {
