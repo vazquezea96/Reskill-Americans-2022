@@ -1,0 +1,19 @@
+html {
+    background-color: whitesmoke;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+}
