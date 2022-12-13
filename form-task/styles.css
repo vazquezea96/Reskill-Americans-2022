@@ -8,7 +8,7 @@ form {
     gap: 10px;
 }
 
-h1 {
+h1{
     text-align: center;
 }
 
@@ -16,4 +16,11 @@ footer {
     margin-top: 15px;
     display: grid;
     justify-content: center;
+}
+
+a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5px;
 }
